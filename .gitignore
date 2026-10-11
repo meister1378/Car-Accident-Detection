@@ -1,0 +1,16 @@
+# 모델 가중치/체크포인트 (용량 문제로 제외 — README에 출처 명시)
+*.pt
+*.pth
+*.safetensors
+
+# vendor 원본 저장소 (공개 GitHub 레포 그대로 포함된 것 — 링크로 대체)
+02_추론코드/stage3/vendor/
+02_추론코드/stage3/vjepa2/
+
+# Python 캐시
+__pycache__/
+*.pyc
+
+# OS/에디터
+.DS_Store
+Thumbs.db

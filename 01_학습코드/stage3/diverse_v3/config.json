@@ -1,0 +1,19 @@
+{
+  "repo_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "checkpoint_url": "https://dl.fbaipublicfiles.com/vjepa2/vjepa2_1_vitb_dist_vitG_384.pt",
+  "fps": 10,
+  "resolution": 384,
+  "clip_frames": 16,
+  "clip_stride": 8,
+  "stop_enter_mps": 0.3,
+  "stop_exit_mps": 0.6,
+  "accel_threshold_mps2": 0.4,
+  "yaw_threshold_degps": 1.5,
+  "speed_smoothing_frames": 5,
+  "max_sensor_gap_seconds": 0.15,
+  "accel_classes": ["ACCELERATING", "DECELERATING", "CONSTANT", "STOPPED"],
+  "steer_classes": ["LEFT", "STRAIGHT", "RIGHT"],
+  "seed": 42,
+  "epochs": 20,
+  "learning_rate": 0.001
+}

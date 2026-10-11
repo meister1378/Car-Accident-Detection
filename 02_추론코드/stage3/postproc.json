@@ -1,0 +1,1 @@
+{"enabled": true, "win_accel": 5, "bias_accel": 0, "bias_decel": 0, "win_steer": 1, "bias_left": -0.6, "bias_right": -0.3, "flip_tta": true}
